@@ -1,4 +1,5 @@
 .container {
+  font-family: 'Courier New', Courier, monospace;
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-template-rows: repeat(6 100px 1fr);
@@ -11,25 +12,50 @@ header {
   background-color: blue;
   margin: solid, 1px, grey;
   background-color: wheat;
-  
+
 }
-.photo{
-  transform: rotate(-90deg);   
+
+.coordonees {
+
+  font-size: 15px;
+}
+
+.nom {
+  font-size: 25px;
+  margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+.job {
+  font-size: 18px;
+  margin: 0 0;
+}
+
+.adresse {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.photo {
+  transform: rotate(-90deg);
   float: right;
-  height:100%;
- 
+  margin right: 0;
+
 }
+
 .titre1 {
   grid-column: 1 / span 2;
   grid-row: 2;
+  font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-  text-decoration: underline;
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .intro {
-  background-color: blue;
+  background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 1 / span 2;
   grid-row: 3;
@@ -39,48 +65,56 @@ header {
 .titre2 {
   grid-column: 1 / span 2;
   grid-row: 4;
+  font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-  text-decoration: underline;
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.profession {
-  text-justify: auto;
-}
+
 
 .left {
-  background-color: yellow;
+  display: grid;
+grid-template-rows: 6;
+  font-weight: bold;
+  background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 1;
   grid-row: 5;
+  
 }
 
 .right {
-  background-color: palevioletred;
+  grid-template-rows: 6;
+  background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 2;
   grid-row: 5;
 }
-
 .titre3 {
   grid-column: 1 / span 2;
   grid-row: 6;
+  font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-  text-decoration: underline;
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .formation-left {
-  background-color: blueviolet;
+  display: grid;
+  grid-template-rows: 5;
+  font-weight: bold;
+  background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 1;
   grid-row: 7;
 }
 
 .formation-right {
-  background-color: brown;
+  grid-template-rows: 5;
+  background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 2;
   grid-row: 7;
@@ -89,21 +123,23 @@ header {
 .titre4 {
   grid-column: 1 / span 2;
   grid-row: 8;
+  font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-  text-decoration: underline;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+
 }
 
 .langues-left {
-  background-color: blueviolet;
+  font-weight: bold;
+  background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 1;
   grid-row: 9;
 }
 
 .langues-right {
-  background-color: blueviolet;
+  background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 2;
   grid-row: 9;
@@ -112,32 +148,31 @@ header {
 .titre5 {
   grid-column: 1 / span 2;
   grid-row: 10;
+  font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-  text-decoration: underline;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.hobbies-left {
-  background-color: blueviolet;
-  margin: solid, 1px, grey;
-  grid-column: 1;
-  grid-row: 11;
-}
 
-.hobbies-right {
-  background-color: blueviolet;
-  margin: solid, 1px, grey;
-  grid-column: 2;
-  grid-row: 11;
-}
+  .hobbies-left {
+    background-color: wheat;
+    margin: solid, 1px, grey;
+    grid-column: 1;
+    grid-row: 11;
+  }
 
-footer {
-  background-color: green;
-  margin: solid, 1px, grey;
-  grid-column: 1 / span 2;
-  grid-row: 12;
-}
-.left p{
-    margin:0;
-}
+  .hobbies-right {
+    background-color: wheat;
+    margin: solid, 1px, grey;
+    grid-column: 2;
+    grid-row: 11;
+  }
+
+  footer {
+    background-color: green;
+    margin: solid, 1px, grey;
+    grid-column: 1 / span 2;
+    grid-row: 12;
+  }
+
+  .left p {}
