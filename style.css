@@ -1,0 +1,143 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: repeat(6 100px 1fr);
+  height: auto;
+}
+
+header {
+  grid-column: 1 /span 2;
+  grid-row: 1;
+  background-color: blue;
+  margin: solid, 1px, grey;
+  background-color: wheat;
+  
+}
+.photo{
+  transform: rotate(-90deg);   
+  float: right;
+  height:100%;
+ 
+}
+.titre1 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  text-align: center;
+  background-color: rgb(150, 135, 135);
+  text-decoration: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.intro {
+  background-color: blue;
+  margin: solid, 1px, grey;
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  text-align: justify;
+}
+
+.titre2 {
+  grid-column: 1 / span 2;
+  grid-row: 4;
+  text-align: center;
+  background-color: rgb(150, 135, 135);
+  text-decoration: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.profession {
+  text-justify: auto;
+}
+
+.left {
+  background-color: yellow;
+  margin: solid, 1px, grey;
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.right {
+  background-color: palevioletred;
+  margin: solid, 1px, grey;
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.titre3 {
+  grid-column: 1 / span 2;
+  grid-row: 6;
+  text-align: center;
+  background-color: rgb(150, 135, 135);
+  text-decoration: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.formation-left {
+  background-color: blueviolet;
+  margin: solid, 1px, grey;
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.formation-right {
+  background-color: brown;
+  margin: solid, 1px, grey;
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.titre4 {
+  grid-column: 1 / span 2;
+  grid-row: 8;
+  text-align: center;
+  background-color: rgb(150, 135, 135);
+  text-decoration: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.langues-left {
+  background-color: blueviolet;
+  margin: solid, 1px, grey;
+  grid-column: 1;
+  grid-row: 9;
+}
+
+.langues-right {
+  background-color: blueviolet;
+  margin: solid, 1px, grey;
+  grid-column: 2;
+  grid-row: 9;
+}
+
+.titre5 {
+  grid-column: 1 / span 2;
+  grid-row: 10;
+  text-align: center;
+  background-color: rgb(150, 135, 135);
+  text-decoration: underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.hobbies-left {
+  background-color: blueviolet;
+  margin: solid, 1px, grey;
+  grid-column: 1;
+  grid-row: 11;
+}
+
+.hobbies-right {
+  background-color: blueviolet;
+  margin: solid, 1px, grey;
+  grid-column: 2;
+  grid-row: 11;
+}
+
+footer {
+  background-color: green;
+  margin: solid, 1px, grey;
+  grid-column: 1 / span 2;
+  grid-row: 12;
+}
+.left p{
+    margin:0;
+}
