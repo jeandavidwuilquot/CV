@@ -50,8 +50,6 @@ header {
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .intro {
@@ -68,90 +66,89 @@ header {
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-
 
 .left {
   display: grid;
-grid-template-rows: 6;
+  grid-template-rows: 6;
   font-weight: bold;
   background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 1;
   grid-row: 5;
-  
 }
 
+
 .right {
+  display: grid;
   grid-template-rows: 6;
   background-color: wheat;
   margin: solid, 1px, grey;
   grid-column: 2;
   grid-row: 5;
 }
+
 .titre3 {
   grid-column: 1 / span 2;
   grid-row: 6;
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
-
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.formation-left {
-  display: grid;
-  grid-template-rows: 5;
-  font-weight: bold;
-  background-color: wheat;
-  margin: solid, 1px, grey;
-  grid-column: 1;
-  grid-row: 7;
-}
-
-.formation-right {
-  grid-template-rows: 5;
-  background-color: wheat;
-  margin: solid, 1px, grey;
-  grid-column: 2;
-  grid-row: 7;
-}
-
-.titre4 {
-  grid-column: 1 / span 2;
-  grid-row: 8;
-  font-size: 22px;
-  text-align: center;
-  background-color: rgb(150, 135, 135);
 
 
-}
+  .formation-left {
+    display: grid;
+    grid-template-rows: 5;
+    font-weight: bold;
+    background-color: wheat;
+    margin: solid, 1px, grey;
+    grid-column: 1;
+    grid-row: 7;
+  }
 
-.langues-left {
-  font-weight: bold;
-  background-color: wheat;
-  margin: solid, 1px, grey;
-  grid-column: 1;
-  grid-row: 9;
-}
+  .formation-right {
+    display: grid;
+    grid-template-rows: 5;
+    background-color: wheat;
+    margin: solid, 1px, grey;
+    grid-column: 2;
+    grid-row: 7;
+  }
 
-.langues-right {
-  background-color: wheat;
-  margin: solid, 1px, grey;
-  grid-column: 2;
-  grid-row: 9;
-}
+  .titre4 {
+    grid-column: 1 / span 2;
+    grid-row: 8;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(150, 135, 135);
 
-.titre5 {
-  grid-column: 1 / span 2;
-  grid-row: 10;
-  font-size: 22px;
-  text-align: center;
-  background-color: rgb(150, 135, 135);
-}
+
+  }
+
+  .langues-left {
+    font-weight: bold;
+    background-color: wheat;
+    margin: solid, 1px, grey;
+    grid-column: 1;
+    grid-row: 9;
+  }
+
+  .langues-right {
+    background-color: wheat;
+    margin: solid, 1px, grey;
+    grid-column: 2;
+    grid-row: 9;
+  }
+
+  .titre5 {
+    grid-column: 1 / span 2;
+    grid-row: 10;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(150, 135, 135);
+  }
 
 
   .hobbies-left {
@@ -175,4 +172,4 @@ grid-template-rows: 6;
     grid-row: 12;
   }
 
-  .left p {}
+  
