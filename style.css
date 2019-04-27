@@ -12,11 +12,10 @@ header {
   background-color: blue;
   margin: solid, 1px, grey;
   background-color: wheat;
-
+  padding:10px;
 }
 
 .coordonees {
-
   font-size: 15px;
 }
 
@@ -40,7 +39,6 @@ header {
 .photo {
   transform: rotate(-90deg);
   float: right;
-  margin-right: 0;
 }
 
 .titre1 {
@@ -49,6 +47,7 @@ header {
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
+  padding:10px;
 }
 
 .intro {
@@ -57,6 +56,7 @@ header {
   grid-column: 1 / span 2;
   grid-row: 3;
   text-align: justify;
+  padding:10px;
 }
 
 .titre2 {
@@ -65,6 +65,7 @@ header {
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
+  padding:10px;
 }
 
 .left {
@@ -78,6 +79,7 @@ header {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   height: 20%, 20%, 20%, 20%, 20%;
+  padding:10px;
 }
 
 
@@ -91,6 +93,7 @@ header {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   height: 20%, 20%, 20%, 20%, 20%;
+  padding:10px;
 }
 
 .taches1 {
@@ -119,6 +122,7 @@ taches5 {
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
+  padding:10px;
 }
 
 
@@ -134,6 +138,7 @@ taches5 {
   display: grid;
   grid-template-rows: 1fr, 1fr, 1fr, 1fr;
   height: 25%, 25%, 25%, 25%,
+  padding:10px;
 }
 
 .formation-right {
@@ -145,6 +150,7 @@ taches5 {
   grid-row: 7;
   grid-template-rows: 1fr, 1fr, 1fr, 1fr;
   height: 25%, 25%, 25%, 25%,
+  padding:10px;
 }
 
 .formation1 {
@@ -165,6 +171,7 @@ taches5 {
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
+  padding:10px;
 }
 
 .langues-left {
@@ -173,6 +180,7 @@ taches5 {
   margin: solid, 1px, grey;
   grid-column: 1;
   grid-row: 9;
+  padding:10px;
 }
 
 .langues-right {
@@ -180,6 +188,7 @@ taches5 {
   margin: solid, 1px, grey;
   grid-column: 2;
   grid-row: 9;
+  padding:10px;
 }
 
 .titre5 {
@@ -188,6 +197,7 @@ taches5 {
   font-size: 22px;
   text-align: center;
   background-color: rgb(150, 135, 135);
+  padding:10px;
 }
 
 
@@ -196,6 +206,7 @@ taches5 {
   margin: solid, 1px, grey;
   grid-column: 1;
   grid-row: 11;
+  padding:10px;
 }
 
 .hobbies-right {
@@ -203,11 +214,6 @@ taches5 {
   margin: solid, 1px, grey;
   grid-column: 2;
   grid-row: 11;
+  padding:10px;
 }
 
-footer {
-  background-color: green;
-  margin: solid, 1px, grey;
-  grid-column: 1 / span 2;
-  grid-row: 12;
-}
